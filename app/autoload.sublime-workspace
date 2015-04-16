@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/Cupon",
+		"/var/www/Cupon/src",
+		"/var/www/Cupon/src/Cupon",
+		"/var/www/Cupon/src/Cupon/OfertaBundle",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default"
+	],
+	"file_history":
+	[
+		"/var/www/Cupon/app/config/routing.yml",
+		"/var/www/Cupon/app/AppKernel.php",
+		"/var/www/Cupon/app/Resources/views/frontend.html.twig",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/cajaLogin.html.twig",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Controller/DefaultController.php",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/config/routing.yml",
+		"/var/www/Cupon/app/config/security.yml",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/login.html.twig",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/Usuario.php",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/UsuarioRepository.php",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/compras.html.twig",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/config/routing.yml",
+		"/var/www/Cupon/src/Cupon/CiudadBundle/Resources/config/routing.yml",
+		"/var/www/Cupon/src/Cupon/TiendaBundle/Resources/config/routing.yml",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/minioferta.html.twig",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/oferta.html.twig",
+		"/var/www/Cupon/app/config/config.yml"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routing.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "autoload.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
