@@ -1,0 +1,59 @@
+<?php
+
+// src/Cupon/UsuarioBundle/Entity/Usuario.php
+
+namespace Cupon\UsuarioBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+* @ORM\Entity
+* @ORM\Table(name="Usuario")
+*/
+class Usuario
+{
+	/** 
+	 * @ORM\Column(type="integer") 
+	 * @ORM\Id
+	 * @ORM\GeneratedValue
+	*/
+	protected $id;
+
+	/** @ORM\Column(name="nombre", type="string", length=100) */
+	protected $nombre;
+
+	/** @ORM\Column(name="apellidos", type="string", length=255) */
+	protected $apellidos;
+
+	/** @ORM\Column(name="email", type="string", length=255) */
+	protected $email;
+
+	/** @ORM\Column(name="password", type="string", length=255) */
+	protected $password;
+
+	/** @ORM\Column(name="salt", type="string", length=255) */
+	protected $salt;
+
+	/** @ORM\Column(name="direccion", type="text") */
+	protected $direccion;
+
+	/** @ORM\Column(name="permite_email", type="boolean") */
+	protected $permite_email;
+
+	/** @ORM\Column(name="fecha_alta", type="datetime") */
+	protected $fecha_alta;
+
+	/** @ORM\Column(name="fecha_nacimiento", type="datetime") */
+	protected $fecha_nacimiento;
+
+	/** @ORM\Column(name="dni", type="string", length=9) */
+	protected $dni;
+
+	/** @ORM\Column(name="numero_tarjeta", type="string", length=20) */
+	protected $numero_tarjeta;
+
+	/** @ORM\ManyToOne(targetEntity="Cupon\CiudadBundle\Entity\Ciudad") */
+	protected $ciudad;
+
+
+}

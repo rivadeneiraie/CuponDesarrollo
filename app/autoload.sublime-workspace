@@ -8,26 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "config/routing.yml",
+			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
 			"settings":
 			{
-				"buffer_size": 500,
+				"buffer_size": 1455,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Venta.php",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 462,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
+			"file": "/var/www/Cupon/src/Cupon/TiendaBundle/Entity/Tienda.php",
 			"settings":
 			{
-				"buffer_size": 25,
+				"buffer_size": 3960,
 				"line_ending": "Unix"
 			}
 		}
@@ -63,14 +63,27 @@
 		"/var/www/Cupon/src",
 		"/var/www/Cupon/src/Cupon",
 		"/var/www/Cupon/src/Cupon/OfertaBundle",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default"
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default",
+		"/var/www/Cupon/src/Cupon/TiendaBundle",
+		"/var/www/Cupon/src/Cupon/TiendaBundle/Entity",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity"
 	],
 	"file_history":
 	[
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Venta.php",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
+		"/var/www/Cupon/src/Cupon/TiendaBundle/Entity/Tienda.php",
+		"/var/www/Cupon/app/config/config.yml",
+		"/var/www/Cupon/app/config/parameters.yml",
+		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/Usuario.php",
+		"/var/www/Cupon/src/Cupon/CiudadBundle/Entity/Ciudad.php",
 		"/var/www/Cupon/app/config/routing.yml",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller/SitioController.php",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
+		"/home/poty/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/var/www/Cupon/app/AppKernel.php",
 		"/var/www/Cupon/app/Resources/views/frontend.html.twig",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/cajaLogin.html.twig",
@@ -78,15 +91,13 @@
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/config/routing.yml",
 		"/var/www/Cupon/app/config/security.yml",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/login.html.twig",
-		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/Usuario.php",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/UsuarioRepository.php",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/compras.html.twig",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/config/routing.yml",
 		"/var/www/Cupon/src/Cupon/CiudadBundle/Resources/config/routing.yml",
 		"/var/www/Cupon/src/Cupon/TiendaBundle/Resources/config/routing.yml",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/minioferta.html.twig",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/oferta.html.twig",
-		"/var/www/Cupon/app/config/config.yml"
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/oferta.html.twig"
 	],
 	"find":
 	{
@@ -121,34 +132,34 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routing.yml",
+					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 500,
+						"buffer_size": 1455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								140,
+								140
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -156,58 +167,61 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
-					"semi_transient": false,
+					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Venta.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 308,
+						"buffer_size": 462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								154,
-								154
+								185,
+								185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/Cupon/src/Cupon/TiendaBundle/Entity/Tienda.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
