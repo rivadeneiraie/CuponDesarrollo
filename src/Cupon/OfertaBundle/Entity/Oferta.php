@@ -381,10 +381,10 @@ class Oferta
     /**
      * Set tienda
      *
-     * @param \Cupon\CiudadBundle\Entity\Tienda $tienda
+     * @param \Cupon\TiendaBundle\Entity\Tienda $tienda
      * @return Oferta
      */
-    public function setTienda(\Cupon\CiudadBundle\Entity\Tienda $tienda = null)
+    public function setTienda(\Cupon\TiendaBundle\Entity\Tienda $tienda = null)
     {
         $this->tienda = $tienda;
 

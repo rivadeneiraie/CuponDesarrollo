@@ -85,10 +85,13 @@ class Basico implements FixtureInterface, ContainerAwareInterface
         $ciudades = $manager->getRepository('CiudadBundle:Ciudad')->findAll();
         $numOferta = 0;
         foreach ($ciudades as $ciudad) {
+
             $tiendas = $manager->getRepository('TiendaBundle:Tienda')->findByCiudad(
                 $ciudad->getId()
             );
+
             for ($i=1; $i<=50; $i++) {
+
                 $numOferta++;
                 
                 $oferta = new Oferta();
@@ -130,10 +133,9 @@ class Basico implements FixtureInterface, ContainerAwareInterface
                 
                 $oferta->setCompras(0);
                 $oferta->setUmbral(rand(25, 100));
-                
+
                 $oferta->setCiudad($ciudad);
                 
-                // Seleccionar aleatoriamente una tienda que pertenezca a la ciudad
                 $oferta->setTienda($tiendas[array_rand($tiendas)]);
                 
                 $manager->persist($oferta);

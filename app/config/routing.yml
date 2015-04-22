@@ -25,3 +25,11 @@ pagina_estatica:
 _pagina_estatica:
     pattern: /sitio/{pagina}/
     defaults: { _controller: FrameworkBundle:Redirect:redirect, route: pagina_estatica }
+
+portada:
+    pattern: /{ciudad}
+    defaults: { _controller: OfertaBundle:Default:portada, ciudad: null }
+
+portada:
+    pattern: /
+    defaults: { _controller: OfertaBundle:Default:portada }
