@@ -9,22 +9,19 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class DefaultController extends Controller
 {
-    public function portadaAction($ciudad = null)
+    public function portadaAction($ciudad)
 	{
-
-		if (null == $ciudad) {
-			$ciudad = $this->container->getParameter('cupon.ciudad_por_defecto');
-		}
 
 		$em = $this->getDoctrine()->getManager();
 
 		$fechaPublicacion = new \DateTime('today');
         $fechaPublicacion->setTime(23, 59, 59);
 
-		$oferta = $em->getRepository('OfertaBundle:Oferta')->findOneBy(array(
-			'ciudad' => $ciudad,
-			'fecha_publicacion' => $fechaPublicacion
-		));
+		$oferta = $em->getRepository('OfertaBundle:Oferta')->findOfertaDelDia($ciudad);
+
+		if (!$oferta) {
+			throw $this->createNotFoundException('No se ha encontrado la oferta del día en la ciudad seleccionada');
+		}
 
 		return $this->render('OfertaBundle:Default:portada.html.twig', array('oferta' => $oferta));
 	}

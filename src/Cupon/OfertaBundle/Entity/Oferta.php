@@ -8,8 +8,9 @@ use Doctrine\ORM\Mapping as ORM;
 use Cupon\OfertaBundle\Util\Util;
 
 /**
-* @ORM\Entity
-* @ORM\Table(name="Oferta")
+ * @ORM\Entity
+ * @ORM\Table(name="Oferta")
+ * @ORM\Entity(repositoryClass="Cupon\OfertaBundle\Entity\OfertaRepository")
 */
 class Oferta
 {

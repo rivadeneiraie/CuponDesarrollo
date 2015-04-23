@@ -20,6 +20,7 @@ framework:
     session:         ~
     fragments:       ~
     http_method_override: true
+    templating: { engines: ['twig'], assets_version_format: 1.0 }
 
 # Twig Configuration
 twig:
@@ -69,4 +70,4 @@ swiftmailer:
     spool:     { type: memory }
 
 parameters:
-    cupon.ciudad_por_defecto: '1'
+    cupon.ciudad_por_defecto: 'barcelona'

@@ -28,8 +28,8 @@ _pagina_estatica:
 
 portada:
     pattern: /{ciudad}
-    defaults: { _controller: OfertaBundle:Default:portada, ciudad: null }
+    defaults: { _controller: OfertaBundle:Default:portada}
 
-portada:
+_portada:
     pattern: /
-    defaults: { _controller: OfertaBundle:Default:portada }
+    defaults: { _controller: FrameworkBundle:Redirect:redirect, route: portada, ciudad: '%cupon.ciudad_por_defecto%' }
