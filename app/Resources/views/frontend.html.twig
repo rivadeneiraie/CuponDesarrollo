@@ -1,6 +1,9 @@
 {# app/Resources/views/frontend.html.twig #}
 {% extends '::base.html.twig' %}
 
+{% set ciudadSeleccionada = app.request.attributes.get('ciudad', ciudad_por_defecto) %}
+
+
 {% block stylesheets %}
 <link href="{{ asset('bundles/oferta/css/normalizar.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('bundles/oferta/css/comun.css') }}" rel="stylesheet" type="text/css" />
@@ -11,12 +14,14 @@
 {% block body %}
 
 	<header>
-		<h1><a href="{{ path('portada', {'ciudad' : 'barcelona'}) }}">CUPON</a></h1>
+		<h1><a href="{{ path('portada', {'ciudad' : ciudadSeleccionada}) }}">CUPON</a></h1>
 		<nav>
 			<ul>
-				<li><a href="{{ path('portada', {'ciudad' : 'barcelona'}) }}">Oferta del día</a></li>
+				<li><a href="{{ path('portada', {'ciudad' : ciudadSeleccionada}) }}">Oferta del día</a></li>
 				<li><a href="#">Ofertas recientes</a></li>
 				<li><a href="#">Mis ofertas</a></li>
+
+				<li>{% render(controller('CiudadBundle:Default:listaCiudades',{ 'ciudad': ciudadSeleccionada }))%}</li>
 			</ul>
 		</nav>
 	</header>

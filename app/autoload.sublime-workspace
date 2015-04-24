@@ -3,23 +3,23 @@
 	{
 		"selected_items":
 		[
+			[
+				"O",
+				"Oferta"
+			],
+			[
+				"Oferta",
+				"OfertaBundle"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+			"file": "Resources/views/frontend.html.twig",
 			"settings":
 			{
-				"buffer_size": 799,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routing.yml",
-			"settings":
-			{
-				"buffer_size": 842,
+				"buffer_size": 904,
 				"line_ending": "Unix"
 			}
 		}
@@ -58,25 +58,23 @@
 	[
 		"/var/www/Cupon",
 		"/var/www/Cupon/app",
-		"/var/www/Cupon/app/Resources/DataFixtures",
-		"/var/www/Cupon/app/config",
-		"/var/www/Cupon/src/Cupon/CiudadBundle",
-		"/var/www/Cupon/src/Cupon/CiudadBundle/Resources/views/Default",
-		"/var/www/Cupon/src/Cupon/OfertaBundle",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Sitio"
+		"/var/www/Cupon/app/Resources",
+		"/var/www/Cupon/app/Resources/views"
 	],
 	"file_history":
 	[
 		"/var/www/Cupon/app/config/config.yml",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+		"/var/www/Cupon/app/Resources/views/base.html.twig",
+		"/var/www/Cupon/app/Resources/views/frontend.html.twig",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/portada.html.twig",
+		"/home/poty/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/poty/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
 		"/var/www/Cupon/app/config/routing.yml",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+		"/var/www/Cupon/src/Cupon/OfertaBundle/Entity/OfertaRepository.php",
 		"/var/www/Cupon/src/Cupon/CiudadBundle/Controller/DefaultController.php",
 		"/var/www/Cupon/app/Resources/DataFixtures/ORM/Basico.php",
-		"/var/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Util/Util.php",
 		"/var/www/Cupon/src/Cupon/TiendaBundle/Entity/Tienda.php",
 		"/var/www/Cupon/src/Cupon/CiudadBundle/Entity/Ciudad.php",
@@ -88,8 +86,6 @@
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/Usuario.php",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Controller/SitioController.php",
 		"/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/ayuda.html.twig",
-		"/home/poty/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/var/www/Cupon/app/Resources/views/frontend.html.twig",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/cajaLogin.html.twig",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Controller/DefaultController.php",
 		"/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/config/routing.yml",
@@ -105,7 +101,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -119,6 +115,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#	modified:   ",
 			"tiendas",
 			"echo"
 		],
@@ -128,6 +125,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"git add "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -138,60 +136,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
-					"semi_transient": false,
+					"file": "Resources/views/frontend.html.twig",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 799,
+						"buffer_size": 904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								698,
-								698
+								461,
+								461
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/routing.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 842,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								755,
-								755
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
